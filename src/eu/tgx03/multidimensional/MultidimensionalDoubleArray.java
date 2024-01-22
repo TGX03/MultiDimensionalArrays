@@ -86,7 +86,7 @@ public class MultidimensionalDoubleArray extends AbstractMultidimensionalArray i
 
 	@Override
 	public boolean equals(@Nullable Object o) {
-		if (o instanceof MultidimensionalLongArray m)
+		if (o instanceof MultidimensionalDoubleArray m)
 			return Arrays.equals(this.dimensions, m.dimensions) && Arrays.equals(this.values, m.values);
 		else return false;
 	}
